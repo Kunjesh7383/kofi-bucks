@@ -1,0 +1,44 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F4F4F4;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333333;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: #555555;
+  }
+  
+  .search-btn {
+    background-color: #F8B195;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-btn:hover {
+    transform: scale(1.05);
+    background-color: #E27D60;
+  }
+  
